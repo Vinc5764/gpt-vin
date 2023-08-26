@@ -1,0 +1,182 @@
+.two {
+    display: flex;
+}
+
+
+.one{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+
+.one h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+
+.one p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+
+.three {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+
+.three input{
+    flex: 2;
+    width: 100%;
+    min-height: 50ox;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.three button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: 0;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+
+.four{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+
+.four img{
+    width: 181.7px;
+    height: 38px;
+}
+
+
+.four p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 0 0 0 1rem;
+}
+
+
+.seven{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seven img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1050px){
+    .two{
+        flex-direction: column;
+    }
+
+    .one {
+        margin: 0 0 3rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .two h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+}
+
+
+.two p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.four {
+    flex-direction: column;
+}
+
+
+.four p{
+    margin: 0;
+}
+
+
+.three input,
+.three button {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+@media screen and (max-width: 490px) {
+    .two h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+}
+
+
+.two p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.three input,
+.three button {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
